@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ui.statistics > .ui.statistic {
+  margin-right: 0;
+}
+
+.subject {
+  margin-top: 2.5em;
+}
+
+.subject:last-of-type {
+  margin-bottom: 2.5em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+input[type=number] {
+  -moz-appearance: textfield !important;
+}
